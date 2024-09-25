@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: antiquewhite;
+}
+#heading{
+    background-color: aqua;
+
+}
+.head{
+    background-color: rgb(13, 105, 105);
+
+}
+p{
+    margin: 10px;
+}
+
+/*div p{
+    background-color: rgb(113, 17, 202);
+
+}
+.mydiv p{
+    background-color: rgb(152, 152, 215);
+
+}
+.mydiv > p{
+    background-color: rgb(223, 101, 101);
+}
+#myid > p{
+    background-color: rgb(30, 41, 98);
+}*/
+
+.mydiv{
+    color: blueviolet;
+}
+#myid{
+    color: rgb(165, 42, 65);
+}
+.mycss{
+    color: rgb(255, 30, 0);
+}
+
+h1{
+    color: rgb(255, 0, 255);
+}
+h3{
+    background-color: antiquewhite;
+    color: rgb(3, 3, 141);
+}
+input{
+    border: 3px solid black;
+}
+input[type="email"]{
+    border: 2px solid blue;
+}
+[href^="https"]{
+    color: rgb(5, 90, 5);
+}
+[href*="facebook"]{
+    color: brown;
+}
